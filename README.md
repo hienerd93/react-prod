@@ -26,18 +26,27 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-## Module
+## SRC Tree
 
-- app | container feature : type, constans(props type)
-
-- Story/component(props type)
-
-- Assets
-
-- Hooks
-
-- Utils
-
-- Services: api(interface), msw
-
-- config(linter, bundle, env,…etc)
+- ***main***
+- stories folder
+   - assets folder
+- **models folder**
+- **constants**
+- store
+- **services folder**
+   - msw
+   - api
+- index.css
+- **hooks**
+- utils folder
+   - **helper**
+   - hook
+- container: module
+   - ***routes***
+   - screens folder
+   - components folder
+   - models folder
+   - constants
+   - *store*
+   - assets folder
